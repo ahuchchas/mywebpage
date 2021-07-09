@@ -1,0 +1,82 @@
+body {
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("forest.jpg");
+	margin: 0;
+	padding: 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.navbar {
+	height: 190px;
+	width: 100%;
+	background: #001a33;
+}
+
+.toptitle {
+	margin:0;
+	padding-top: 18px;
+	padding-bottom: 8px;
+	color: tomato;
+	text-align: center;
+	font-size: 40px;
+	font-family: "Sofia", sans-serif;
+}
+
+.navitem {
+	text-decoration: none;
+	color: white;
+	float: right;
+	margin: 15px 8px 5px;
+	padding: 6px 12px;
+	border: 1px solid cyan;
+	border-radius: 15px;
+}
+.navitem:hover {
+	text-decoration: none;
+	background: cyan;
+	color: black;
+}
+
+.wlcm {
+	height: 600px;
+	width: 100%;
+}
+.wlcm h2 {
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	margin: 0;
+}
+.wlcm p {
+	text-align: center;
+	color: white;
+}
+
+.imginfo {
+	height: 400px;
+	width: 100%;
+}
+
+.foot {
+	margin:0;
+	padding: 0;
+	background: #001a33;
+	height: 70px;
+	vertical-align: middle;
+}
+
+.fb {
+	float: left;
+	color: white;
+	margin: 22px 20px 10px 320px;
+}
+.mail {
+	float: left;
+	color: white;
+	margin: 22px 20px 10px 100px;
+}
+.cell {
+	float: left;
+	color: white;
+	margin: 22px 20px 10px 100px;
+}
